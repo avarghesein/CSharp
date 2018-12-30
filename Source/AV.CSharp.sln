@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AV.CSharp.Test.PowerShell.Automation", "AV.CSharp.Test\AV.CSharp.Test.PowerShell.Automation\AV.CSharp.Test.PowerShell.Automation.csproj", "{98FA57BD-4AA6-4D48-A2EC-E423D7FFE872}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AV.CSharp.Test", "AV.CSharp.Test", "{D95004B2-AB93-4453-BF77-20606BF14DD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AV.CSharp", "AV.CSharp", "{BC079198-1B17-4911-A8F5-5D79E44FF19B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AV.CSharp.PowershellAutomation", "AV.CSharp\AV.CSharp.PowershellAutomation\AV.CSharp.PowershellAutomation.csproj", "{B9801A8C-E20A-4B12-8CB4-94F12997CB3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98FA57BD-4AA6-4D48-A2EC-E423D7FFE872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FA57BD-4AA6-4D48-A2EC-E423D7FFE872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FA57BD-4AA6-4D48-A2EC-E423D7FFE872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FA57BD-4AA6-4D48-A2EC-E423D7FFE872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9801A8C-E20A-4B12-8CB4-94F12997CB3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9801A8C-E20A-4B12-8CB4-94F12997CB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9801A8C-E20A-4B12-8CB4-94F12997CB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9801A8C-E20A-4B12-8CB4-94F12997CB3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98FA57BD-4AA6-4D48-A2EC-E423D7FFE872} = {D95004B2-AB93-4453-BF77-20606BF14DD2}
+		{B9801A8C-E20A-4B12-8CB4-94F12997CB3C} = {BC079198-1B17-4911-A8F5-5D79E44FF19B}
+	EndGlobalSection
+EndGlobal
